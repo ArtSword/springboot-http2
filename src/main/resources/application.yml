@@ -1,0 +1,9 @@
+server:
+  port: 18080
+  ssl:
+    key-store: classpath:client.p12
+    key-store-password: 12345678
+    key-store-type: PKCS12
+    key-alias: client
+  http2:
+    enabled: true
